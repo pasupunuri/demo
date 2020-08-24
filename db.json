@@ -1,14 +1,10 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "timeline": [
+    { "status": "draft", "title": "Title", "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "time": "6 June 2020, 10:00am"  },
+    { "status": "legal", "title": "Title", "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "time": "6 June 2020, 10:00am"  },
+    { "status": "activate", "title": "Title", "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "time": "6 June 2020, 10:00am"  },
+    { "status": "deactivate", "title": "Title", "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "time": "6 June 2020, 10:00am"  },
+    { "status": "suspend", "title": "Title", "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "time": "6 June 2020, 10:00am"  },
+    { "status": "start", "title": "Title", "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "time": "6 June 2020, 10:00am"  }
+  ]
 }
